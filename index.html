@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+</head>
+
+<body>
+
+<header>
+    <h1>My Portfolio</h1>
+    <nav>
+        <a href="#hero">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<!-- HERO -->
+<section id="hero">
+    <h2>Hello, I'm <span class="name">Mubarak</span></h2>
+    <p>A Passionate Web Developer</p>
+    <button id="hireBtn">Hire Me</button>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+    <h2>About Me</h2>
+    <p>
+        I am a passionate frontend web developer with experience building responsive and user-friendly
+        websites using HTML, CSS, and JavaScript. I enjoy turning ideas into functional digital experiences
+        and writing clean, efficient code.
+    </p>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+    <h2>My Skills</h2>
+    <ul>
+        <li>HTML & CSS</li>
+        <li>JavaScript</li>
+    </ul>
+</section>
+
+<!-- PROJECTS -->
+<section>
+    <h2>Projects</h2>
+    <div id="projects">
+        <div class="project-box">
+            <h3>Portfolio Website</h3>
+            <p>Responsive landing pages, stopwatch app, and interactive components built with modern design principles.</p>
+        </div>
+
+        <div class="project-box">
+            <h3>Form Validator</h3>
+            <p>A JavaScript form validation project using DOM manipulation.</p>
+        </div>
+    </div>
+</section>
+
+<!-- CONTACT SECTION -->
+<section id="contact">
+    <h2>Contact Me</h2>
+    <form id="contactForm">
+        <input type="text" id="contactForm" placeholder="Your Name">
+        <input type="email" id="contactEmail" placeholder="Your Email">
+        <textarea id="message" placeholder="Your Message"></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+
+    <p id="feedback"></p>
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
